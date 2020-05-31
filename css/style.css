@@ -1,0 +1,395 @@
+body{
+    background-color: #f9f9f9;
+}
+
+body {
+    height:700px;
+    background-image: url('../images/IMG-20200505-WA0015-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y:-80px;
+    background-position-x:600px ;
+    margin: auto;
+    z-index: 1;
+    position: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+
+    
+}
+
+div#parent header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:60px 0px;
+}
+
+div#parent header .logo img{
+   width: 100px;
+   image-resolution: 20000px;
+   border-radius: 15%;
+   box-shadow:  3px 3px  3px inset rgba(0,0,4,4);
+    
+}
+
+
+
+div#parent header nav{
+    float:right;
+    display: flex;
+    
+}
+
+div#parent header nav ul li{
+    float:left;
+    list-style: none;
+    cursor: pointer;
+}
+
+div#parent header nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform:lowercase;
+    font-size:15px;
+    font-weight:600;
+    padding-left:60px;
+    color:#000;
+    
+}
+
+div#parent header nav ul li a i{
+    font-weight:600;
+}
+
+div#parent section {
+    position:relative;
+    top:120px;
+}
+
+div#parent section .title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+div#parent section .title h4{
+    font-size: 14px;
+    margin-bottom: 15px;
+    
+
+}
+
+div#parent section .title h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 200;
+}
+
+}
+
+div#parent section .content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    margin-bottom: 200;
+}
+
+div#parent section .content h5{
+    font-weight: 20px;
+    color:#aaaaaa;
+}
+
+.div#parent section .content p{
+    
+    font-weight: 20;
+
+}
+
+div#parent section .btn {
+    margin-top: 40px;
+    display: flex ;
+    
+}
+
+div#parent section .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border:1px solid black;
+    transition:all 250ms ease-in-out;
+    
+    
+    
+}
+
+div#parent section .btn a:first-child{
+    margin-right: 10px;
+    color:#f44336;
+    border:1px solid #f44336;
+
+}
+
+div#parent section .btn a:last-child{
+    margin-right: 10px;
+    color:#4caf50;
+    border:1px solid #4caf50;
+
+}
+
+div#parent section .btn a:first-child:hover{
+    
+    margin-right: 10px;
+    color:#fff;
+    border:1px solid#fff;
+    background-color: #f44336;
+    box-shadow:  1px 1px 1px 1px rgb(105, 103, 103);
+
+
+
+}
+
+div#parent section .btn a:last-child:hover{
+    margin-right: 10px;
+    color:#fff;
+    border:1px solid#fff;
+    background-color: #4caf50;
+    box-shadow:  1px 1px 1px 1px rgb(105, 103, 103);
+
+}
+
+div#parent section aside{
+    transform-origin: right;
+    transform: rotate(90deg);
+    position: relative;
+    top:400px;
+}
+
+div#parent section aside ul li{
+    display:inline-block;
+    margin-right: 70px;
+
+}
+
+div#parent section aside ul li a{
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color:#000;
+   font-weight: 30px;
+    
+}
+
+.moveup{
+    bottom:300px;
+    margin-bottom: 80px;
+    transform: translate(5%,-40%);
+}
+
+div#parent footer {
+    height:240px;
+    position: absolute;
+    
+    bottom: -150px;
+    width:100%;
+}
+
+div#parent footer .left{
+     background-color: #eeeeee;
+     height:inherit;
+     width:100%;
+}
+
+div#parent footer .right{
+    background-color: #273238;
+    height:inherit;
+    width:50%;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+div#parent footer .left .content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:240px;
+}
+
+div#parent footer .left .content h1{
+    font-size: 35px;
+    font-weight: 400;
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#parent footer .left .content a{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding:10px;
+    color:#6b6b6b;
+}
+
+
+div#parent footer .left .content a:hover{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding:10px;
+    color:#000;
+}
+
+div#parent footer .left .content h4{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+}
+
+div#parent footer .foo{
+    position: relative;
+    z-index:3;
+}
+
+div#parent  footer .foo.pic{
+    position: relative;
+    width:100%;
+    bottom:50px;
+    overflow:hidden;
+    
+
+    /* right:-50%;
+    bottom:250px;
+    overflow:hidden;
+    width:100%;
+     */
+}
+
+div#parent  footer .foo.btn {
+   
+    display: flex;
+    bottom:50px;
+}
+
+
+
+ 
+
+div#parent footer .foo.btn button{
+    border:none;
+    background-color: #273238;
+    color:#fff;
+    padding: 18px;
+    cursor:pointer;
+    font-weight:600;
+    transition:250ms ease-out;
+    
+   
+}
+
+div#parent footer .foo.btn button i{
+
+    font-weight:600;
+}
+
+div#parent footer .foo.btn button:hover{
+    background-color: #192125;
+    
+}
+
+div#parent footer .foo.text h4{
+    margin-bottom: 15px;
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size:10;
+
+}
+
+div#parent footer .foo.text p{
+    color:#fff;
+    font-size: 24px;
+    line-height:28px;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+/* div#parent section .fa-youtube-play{
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    background:#ff0700;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items:center;
+    border:1px solid black;
+    margin-right: 10px;
+    
+} 
+
+.div#parent section .fa-spotify{
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    background:#ff0700;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items:center;
+    border:1px solid black;
+    margin-right: 10px;
+
+}
+
+
+
+.fa-youtube-play a:first-child{
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border:1px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    color:#f44336;
+    margin-right: 10px;
+    
+
+}
+
+   .fa-spotify a:last-child{
+    text-decoration: none;
+    font-size: 20px;
+    height: 15px;
+    width: 15px;
+    border:1px solid green;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    color:#f44336;
+
+} */
+
+
+
+
+
+
